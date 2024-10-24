@@ -1,0 +1,122 @@
+.tax-container{
+    margin: 1rem 0;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: aliceblue;
+}
+
+.tax-header-container{
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    h1{
+        font-weight: 900;
+    }
+}
+
+.tax-data-container {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    width: 75%;
+    font-family: Arial, sans-serif;
+    box-shadow: #d5d5d5 4px 4px 10px 1px;
+}
+
+.tax-data-container h1 {
+    font-size: 1.5rem;
+}
+
+.tax-data-container h2 {
+    font-size: 1.2rem;
+}
+
+.tax-data-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.tax-data-header-left {
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.tax-data-header-left img {
+    width: 25%;
+}
+
+.tax-data-header-right {
+    text-align: right;
+    line-height: 0.5rem;
+}
+
+.tax-data-header-right-top{
+    text-align: center;
+    line-height: 0.5rem;
+    margin: 1rem 0 1rem 1rem; 
+    color: darkgreen;
+    font-weight: 900;
+
+    h1 {
+        font-weight: 900;
+        line-height: 0.5rem;
+    }
+    h6 {
+        font-weight: 900;
+    }
+}
+
+.tax-data-header-right-bottom{
+    text-align: left;
+    line-height: 0.5rem;
+    padding: 0 0 0 2rem;
+    margin: 2rem 0 0 1rem; 
+}
+
+.tax-data-bill-to {
+    margin: 20px 0;
+    line-height: 0.5rem;
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+.tax-data-items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 2.5rem;
+    line-height: 0.5rem;
+}
+
+.tax-data-items th, .tax-data-items td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.tax-data-totals {
+    text-align: right;
+    line-height: 0.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.tax-data-note {
+    font-size: 14px;
+    color: #555;
+    line-height: 0.5rem;
+}
+
+.tax-data-thai-text {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 0.5rem;
+}
+

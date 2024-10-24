@@ -1,0 +1,58 @@
+.component-container {
+    text-align: center;
+    height: 640px;
+    background-image: url('/public/BG-01.jpg');
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.component-header-container {
+    color: white;
+    h1{
+        font-weight: 900;
+    }
+}
+
+.component-introduce-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box01 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.box02 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.box03 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.component-footer-container {
+    color: white;
+}

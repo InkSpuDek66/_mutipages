@@ -1,0 +1,28 @@
+.add-container{
+    border: 1px solid black;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #383636;
+}
+.add-title{
+    color: chartreuse;
+}
+.add-variables{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+.add-display{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+.add-button{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}

@@ -1,0 +1,37 @@
+.carts-container {
+    padding: 0.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.carts-body-container {
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: auto;
+    box-shadow: 0 0 0.25rem grey;
+    text-align: center;
+}
+
+.carts-header-container {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1.5rem;
+
+    h1 {
+        font-weight: 900;
+    }
+}
+
+.carts-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    overflow-y: auto;
+    height: 560px;
+    align-items: start;
+}
+
+.carts-total-container {
+    margin: 1.5rem;
+}

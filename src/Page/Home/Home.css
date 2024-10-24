@@ -1,0 +1,39 @@
+.home-container{
+    text-align: center;
+    height: 640px;
+}
+.home-header-container{
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+    h1{
+        font-weight: 900;
+    }
+}
+.home-introduce-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+.home-img-container{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(56, 54, 54);
+}
+.home-img-container img{
+    width: 100%;
+    height: 100%;
+}
+.home-texts-container{
+    line-height: 0.5rem;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
