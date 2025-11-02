@@ -47,7 +47,7 @@ function App() {
     // Login
     return (
       <div className="App-container">
-        <HashRouter>
+        <BrowserRouter basename="/_mutipages">
           <Routes>
             <Route
               element={
@@ -78,7 +78,7 @@ function App() {
               />              
             </Route>
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
       </div>
     );
   }
