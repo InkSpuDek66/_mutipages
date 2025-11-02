@@ -1,5 +1,5 @@
 // import componpents
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 // import pages
 import Layout from "./layout/Layout/Layout";
