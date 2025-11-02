@@ -19,6 +19,7 @@ function Login({ setToken, setRole }) {
         <Form.Control
           type="text"
           id="username"
+          value={"user"}
           placeholder="user" // admin guest
           ref={userRef}
         />
@@ -26,6 +27,7 @@ function Login({ setToken, setRole }) {
         <Form.Control
           type="password"
           id="password"
+          value={"pass"}
           placeholder="pass"
           ref={passRef}
         />
